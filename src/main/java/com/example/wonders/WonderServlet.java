@@ -1,4 +1,4 @@
-package main.java.com.example.wonders;
+package com.example.wonders;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -27,7 +27,6 @@ public class WonderServlet extends HttpServlet {
         wonders.put("2", new Wonder("2", "Great Wall of China",
                 "A series of fortifications made of stone and earth, built across the historical northern borders of China.",
                 "images/great_wall.jpg"));
-        // You can add more if you want.
     }
 
     @Override
