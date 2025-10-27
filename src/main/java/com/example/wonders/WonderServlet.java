@@ -1,4 +1,4 @@
-package com.example.wonders;
+package main.java.com.example.wonders;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
