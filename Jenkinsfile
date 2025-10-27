@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        WAR_FILE = "target/SevenWondersApp.war"  
+        WAR_FILE = "target/seven-wonders.war"  
         CONTEXT_PATH = "/SevenWondersApp"        
         TOMCAT_URL = "http://localhost:8080"     
     }
